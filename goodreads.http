@@ -1,0 +1,41 @@
+
+###
+
+POST http://localhost:3000/users/
+Content-Type: application/json
+
+{   
+    "name":"junnu",
+    "username":"junnu123",
+    "password": "junnu@456",
+    "gender": "Male",
+    "location":"hyderabad"
+}
+
+
+###
+
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+    "username":"junnu123",
+    "password": "junnu@456"
+}
+
+###
+POST http://localhost:3000/orders/
+Content-Type: application/json
+
+{
+    "username":"junnu",
+    "mobilenumber":"9000374964",
+    "gender":"female",
+    "address":"bangalore"
+}
+###
+POST http://localhost:3000/items/
+Content-Type: application/json
+{
+    "mobilenumber":"9000374964"
+}
