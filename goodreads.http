@@ -20,22 +20,62 @@ Content-Type: application/json
 
 {
     "username":"junnu123",
-    "password": "junnu@456"
+    "password": "junnu@45"
 }
 
+ 
 ###
-POST http://localhost:3000/orders/
+ 
+POST  http://localhost:3000/add-address/
 Content-Type: application/json
 
 {
-    "username":"junnu",
-    "mobilenumber":"9000374964",
-    "gender":"female",
-    "address":"bangalore"
+    "name":"junnu",
+    "mobilenumber":"9515953145",
+    "village":"yerrapalli",
+    "mandal":"Gorantla",
+    "district":"ananthapuram",
+    "state":"andhra",
+    "post":"Budili",
+    "pincode":"515231"
+
 }
+
 ###
-POST http://localhost:3000/items/
+
+GET http://localhost:3000/addresses/ 
+
+
+###
+PUT http://localhost:3000/address/addressId/
 Content-Type: application/json
 {
-    "mobilenumber":"9000374964"
+    "id":"1",
+  "name": "Jane Doe",
+  "mobilenumber": "9876543210",
+  "village": "Sunnyvale",
+  "mandal": "Westside",
+  "district": "Northwood",
+  "state": "Nevada",
+  "post": "Post Office",
+  "pincode": "654321"
+
 }
+
+###
+DELETE http://localhost:3000/address/addressId/
+Content-Type: application/json
+{
+    "id":"1",
+    "name": "Jane Doe",
+  "mobilenumber": "9876543210",
+  "village": "Sunnyvale",
+  "mandal": "Westside",
+  "district": "Northwood",
+  "state": "Nevada",
+  "post": "Post Office",
+  "pincode": "654321"
+
+}
+
+
