@@ -30,14 +30,15 @@ POST  http://localhost:3000/add-address/
 Content-Type: application/json
 
 {
-    "name":"junnu",
-    "mobilenumber":"9515953145",
-    "village":"yerrapalli",
-    "mandal":"Gorantla",
-    "district":"ananthapuram",
-    "state":"andhra",
-    "post":"Budili",
-    "pincode":"515231"
+    "id":"1",
+  "name": "gowthami",
+  "mobilenumber": "9876543210",
+  "village": "gutthivaripalli",
+  "mandal": "Gorantla",
+  "district": "sathya sai",
+  "state": "Ap",
+  "post": "Budili",
+  "pincode": "515241"
 
 }
 
@@ -51,14 +52,14 @@ PUT http://localhost:3000/address/addressId/
 Content-Type: application/json
 {
     "id":"1",
-  "name": "Jane Doe",
+  "name": "gowthami",
   "mobilenumber": "9876543210",
-  "village": "Sunnyvale",
-  "mandal": "Westside",
-  "district": "Northwood",
-  "state": "Nevada",
-  "post": "Post Office",
-  "pincode": "654321"
+  "village": "gutthivaripalli",
+  "mandal": "Gorantla",
+  "district": "sathya sai",
+  "state": "Ap",
+  "post": "Budili",
+  "pincode": "515241"
 
 }
 
@@ -66,15 +67,15 @@ Content-Type: application/json
 DELETE http://localhost:3000/address/addressId/
 Content-Type: application/json
 {
-    "id":"1",
-    "name": "Jane Doe",
+   "id":"1",
+  "name": "gowthami",
   "mobilenumber": "9876543210",
-  "village": "Sunnyvale",
-  "mandal": "Westside",
-  "district": "Northwood",
-  "state": "Nevada",
-  "post": "Post Office",
-  "pincode": "654321"
+  "village": "gutthivaripalli",
+  "mandal": "Gorantla",
+  "district": "sathya sai",
+  "state": "Ap",
+  "post": "Budili",
+  "pincode": "515241"
 
 }
 
